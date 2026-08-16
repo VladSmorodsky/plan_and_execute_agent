@@ -55,6 +55,10 @@ cover/
 *.mo
 *.pot
 
+# Agent state:
+checkpoints.db
+chroma_db/
+
 # Django stuff:
 *.log
 local_settings.py
@@ -151,6 +155,7 @@ activemq-data/
 .env
 .envrc
 .venv
+.pae_agent/
 env/
 venv/
 ENV/
